@@ -1,11 +1,17 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ch2-backend-store</title>
+    <title>MiniStore</title>
 </head>
 <body>
-    
+    <h1>Challeng2 Backend Store</h1>
+    <ul>
+        <li><a href="pages/addProducts.php">Add Product</a></li>
+        <li><a href="pages/createOrder.php">Order</a></li>
+        <li><a href="pages/payments.php">Payment</a></li>
+        <li><a href="pages/users.php">Users</a></li>
+    </ul>
 </body>
 </html>
