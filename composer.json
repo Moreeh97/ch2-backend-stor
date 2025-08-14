@@ -1,7 +1,9 @@
 {
+    "name": "engmoreeh/ch2-backend-stor",
     "autoload": {
         "psr-4": {
-            "CH2-BACKEND-STORE\\": "src/"
+            "Engmoreeh\\Ch2BackendStor\\Modules\\": "src/Modules/"
         }
-    }
+    },
+    "require": {}
 }
