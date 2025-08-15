@@ -45,9 +45,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 echo "<h2>Product List</h2>";
 foreach ($_SESSION['products'] as $product) {
-    echo "Product Name: " . $product->getName() . "<br>";
-    echo "Price: $" . $product->getPrice() . "<br>";
-    echo "Quantity: " . $product->getQuantity() . "<br><br>";
+    echo "Product Name: " . ($product->getName()) . "<br>";
+    echo "Price: $" . ($product->getPrice()) . "<br>";
+    echo "Quantity: " . ($product->getQuantity()) . "<br><br>";
 }
 ?>
 
